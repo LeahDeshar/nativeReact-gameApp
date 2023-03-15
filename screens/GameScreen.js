@@ -2,6 +2,18 @@ import React from 'react'
 import { View,Text,StyleSheet,SafeAreaView} from 'react-native'
 import Title from '../components/Title'
 
+function generateRandomBetween(min,max,exclude)
+{
+    const randomNum = Math.floor(Math.random() * (max-min)) + min;
+
+    if(randomNum)
+    {
+        return generateRandomBetween(min,max,exclude);
+    }else 
+    {
+        return randomNum;
+    }
+}
 function GameScreen() {
   return (
         <View style={styles.screen}>
