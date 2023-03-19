@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
     },
     summaryText:
     {
-        // fontFamily: 'opens-sans',
         color: "white",
         fontSize: 20,
         textAlign: 'center',
@@ -56,7 +55,6 @@ const styles = StyleSheet.create({
     },
     highlight: 
     {
-        // fontFamily: 'open-sans-bold',
         color: Colors.primary500
     }
 });
